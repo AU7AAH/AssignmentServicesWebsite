@@ -1,0 +1,98 @@
+
+.slider{
+    height: 80vh;
+    overflow: hidden;
+    background: black;
+    /* width: 99vw; */
+    position: relative;
+    
+}
+.slick-slider {  
+    width: 100%;  
+    margin: auto; 
+    height: 750px;
+    
+    /* background-size:cover; */
+    
+  }  
+
+.slick-slider img {
+  height: 10%;
+  width: 100%;
+  opacity: 0.3;
+  object-fit: cover;
+  
+}
+
+.text{
+  position: absolute;
+  top: 10%;
+  color: white;
+  padding-right: 4%;
+}
+
+.text h1{
+  margin-left: 10%;
+  font-size: 50px;
+  width: 1024px;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 70px;
+  overflow-wrap: break-word;
+  word-wrap: normal;
+  word-break: break-word;
+}
+
+.text p {
+  margin-left:10%;
+  font-size: 20px;
+  line-height: 30px;
+   overflow-wrap: break-word;
+  word-wrap: normal;
+  word-break: break-word;
+}
+
+.icon{
+  display: flex;
+}
+
+.sup{
+  margin-left: 150px;
+  padding-left: 50px;
+}
+
+.sup p{
+  margin-top: 20px;
+  margin-left: -50px;
+}
+
+.qoute_form{
+  /* width: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  display: block;
+  z-index: 1000; */
+  position: absolute;
+  right:150px;
+  top:150px;
+  /* margin: 20px; */
+  max-width: 550px;
+  padding: 16px;
+  background-color: white;
+  /* opacity: 0.9; */
+  z-index: 999;
+  border-radius: 10px;
+}
+.qoute_form input{
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.qoute_form select{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.qoute_form button{
+  width: 100%;
+}

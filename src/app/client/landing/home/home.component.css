@@ -1,0 +1,365 @@
+h1{
+    font-size: 30px;
+}
+
+p{
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.header {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+
+.help{
+    /* background-color: aqua; */
+    height: 50vh;
+    text-align: center;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+.help p {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.box_container{
+    /* margin-top: 50px; */
+    /* background-color: grey; */
+    display: flex;
+    width: 1200px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.boxes {
+    /* padding-top: 40px; */
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* width: 300;
+    height: 154; */
+    /* margin: auto 10px; */
+}
+.why_container{
+    background-color: #e8e6e6;
+    height: 70vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.why_container p{
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 400;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tophelp{
+    /* background-color: crimson; */
+    height: 100vh;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.top_help   {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.top_help_item{
+    /* background-color: aqua; */
+    width: 370px;
+    height: 250px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* flex: 0 1 30%; */
+    
+}
+.top_help_item img{
+    width: 75px;
+    height: 75px;
+    
+}
+
+.top_help_item span{
+    font-size: 20px;
+    font-weight:bold;
+}
+.top_help_item strong{
+    font-size: 26px;
+}
+
+
+.premierhelp{
+    background-color: #e8e6e6;
+    height: 85vh;
+}
+.content{
+    padding-top: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.bg_img_container{
+    /* background-color: bisque; */
+    height: 45vh;
+    position: relative;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.img_text{
+    /* width: 1200px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-top: 30px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.img_text h2{
+    padding-left: 300px;
+    font-size: 40px;
+}
+
+.bg_img_container img{
+    width: 99.1vw;
+    height: 45vh;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.list_container{
+   position: absolute;
+   display: flex;
+   padding-left: 300px;
+   top:30%;
+   font-size: 20px;
+   justify-content: space-around;
+   line-height: 50px;
+}
+
+.list1 li{
+    /* margin: 0 20 20 20px; */
+    text-align: left;
+    list-style-type: square;
+}
+.list2 li{
+    /* margin: 0 20 20 20px; */
+    margin-left: 200px;
+    text-align: left;
+    list-style-type: square;
+}
+
+.discount_section{
+    margin-left: 30px;
+    max-width: 300px;
+}
+
+.discount_section img{
+   width: 200px;
+   height: 169px;
+   opacity: 1;
+   -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.quad_container{
+    /* background-color: cornflowerblue; */
+    width: 1200px;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.quad_item{
+    width: 600px;
+    height: 360px;
+    /* padding: 0; */
+    /* background-color: yellow; */
+}
+
+.quad_item img{
+    /* margin-left: 10px; */
+    width: 580px;
+    height: 360px;
+}
+
+.our_services{
+    background-color: #e8e6e6;
+    height: 1200px;
+}
+
+.assistance_container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: tomato; */
+    height: 55vh;
+}
+.slider{
+    overflow: hidden;
+    position: relative;  
+}
+.slick-slider {  
+    width: 100%;  
+    margin: auto; 
+    height: 55vh;
+  }  
+
+.slide{
+    display: flex;
+    height: 55vh;
+}
+
+.slick-slider img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 100px;
+  object-fit: cover;
+  align-items: center;
+}
+
+.text{
+  top: 10%;
+  padding-right: 4%;
+}
+
+.text p {
+  margin-left:10%;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 100px;
+}
+
+.text span{
+    margin-left:10%;
+}
+
+.clientLocation{
+    margin-left: 10%;
+}
+.select_container{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.uni_logo{
+    padding: 20px;
+    background-color: #1f2d3d;
+}
+.uni_logo_container{
+   
+    height: 200px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    
+}
+
+marquee{
+    display: flex;
+    align-items: center;
+}
+.logo-flow{
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    border: 5px solid orange;
+}
+
+.faq_container{
+    /* background-color: blue; */
+    height: 100vh;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

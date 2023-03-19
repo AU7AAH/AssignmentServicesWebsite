@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { SlickCarouselModule } from 'ngx-slick-carousel'; 
+import {CdkAccordionModule} from '@angular/cdk/accordion';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -16,6 +19,7 @@ import { EssayWritingComponent } from './services/essay-writing/essay-writing.co
 import { CaseStudyComponent } from './services/case-study/case-study.component';
 import { ProgrammingHelpComponent } from './services/programming-help/programming-help.component';
 import { ThesisHelpComponent } from './services/thesis-help/thesis-help.component';
+import { DoneComponent } from './done/done.component';
 
 
 
@@ -33,11 +37,15 @@ import { ThesisHelpComponent } from './services/thesis-help/thesis-help.componen
     CaseStudyComponent,
     ProgrammingHelpComponent,
     ThesisHelpComponent,
+    DoneComponent,
   ],
   imports: [
     CommonModule,
     LandingRoutingModule,
     SlickCarouselModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    CdkAccordionModule
 
   ]
 })
